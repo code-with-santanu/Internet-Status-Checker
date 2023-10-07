@@ -9,7 +9,7 @@ export default function Home() {
   const [strength, setStrength] = useState("");
 
   return (
-    <div className="container ">
+    <div className="container">
       <h1 className="heading">Internet Connection Status Checker</h1>
       <div className="status">
         <p>
