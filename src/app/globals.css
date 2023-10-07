@@ -48,9 +48,22 @@ body {
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 1rem;
+
+  text-align: center;
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  background-position: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
-.status {
+.status p {
   margin: 0.5rem;
   font-size: 1.1rem;
+  font-weight: 500;
+  color: ;
+}
+
+.status p span {
+  font-weight: 400;
 }
